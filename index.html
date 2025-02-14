@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"> <!--Necessário para adicionar a folha STYLE--> 
+    <style>
+        body {
+            background-color:black;
+            color:white;
+        }
+        .botaoenvio {    
+            background-color: rgb(55, 161, 126);
+        }
+    </style>     <!--label{color:aquamarine; } h1{color:white;} OBS:teria que está dentro da tag STYLE-->
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <label for="user">Usuário</label>
+        <input id="user" type="Usuário">
+        <br>
+        <label style="color:rgb(88, 84, 218)" for="senha">Senha </label> <!--Opção para estelizar apenas um elemento-->
+        <input id="senha" type="password">
+        <br>
+        <button class="botaoenvio" type="submit">Entrar</button> <!--Com o elemento CLASS-->
+        <button class="botaolimpar" type="reset">Limpar</button> <!--com o elemento CLASS, mas utilizando direto no CSS-->
+        
+    </form>
+</body>
+</html>
