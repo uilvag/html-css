@@ -1,3 +1,23 @@
 .botaolimpar {
     background-color: red;
 }
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color:blueviolet;
+}
+
+.dataCriacao {
+    color:chartreuse;
+}
+
+#economy h2 {
+    color: gold;
+}
+
+* {
+    color:rgb(20, 7, 36)
+}   <!--Para estelizar tudo na pagina,fora os que já foram -->
