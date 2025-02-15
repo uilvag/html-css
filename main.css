@@ -1,29 +1,9 @@
-.botaolimpar {
-    background-color: red;
-}
+
 * {
     box-sizing: border-box;
     margin:0px;
     padding: 0px;
 }
-
-h1 {
-    color: orange;
+header li {
+    display: inline;
 }
-
-h2 {
-    color:blueviolet;
-}
-
-.dataCriacao {
-    color:chartreuse;
-}
-
-#economy h2 {
-    color: gold;
-}
-
-* {
-    color:rgb(88, 168, 121)
-}
-

@@ -1,4 +1,27 @@
+.botaolimpar {
+    background-color: red;
+}
 seletor {
     propriedade: valor; 
 }
 
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color:blueviolet;
+}
+
+.dataCriacao {
+    color:chartreuse;
+}
+
+#economy h2 {
+    color: gold;
+}
+
+* {
+    color:rgb(88, 168, 121)
+}
