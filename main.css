@@ -4,6 +4,13 @@
     margin:0px;
     padding: 0px;
 }
+
 header li {
     display: inline;
 }
+
+.container {
+    width: 50%;           /* Define a largura do contêiner */
+    margin: 0 auto;       /* Centraliza o contêiner horizontalmente */
+}
+
