@@ -14,3 +14,17 @@ header li {
     margin: 0 auto;       /* Centraliza o contêiner horizontalmente */
 }
 
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
