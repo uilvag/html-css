@@ -1,6 +1,11 @@
 .botaolimpar {
     background-color: red;
 }
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
 
 h1 {
     color: orange;
@@ -20,4 +25,5 @@ h2 {
 
 * {
     color:rgb(88, 168, 121)
-}   <!--Para estelizar tudo na pagina,fora os que já foram -->
+}
+
