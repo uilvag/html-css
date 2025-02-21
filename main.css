@@ -26,14 +26,18 @@ header .container {
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 header li a {
     color: blue;
+    text-decoration: none;
 }
 
 .container {
-    width: auto;           /* Define a largura do contêiner */
+    width: 95%;           /* Define a largura do contêiner */
     margin: 0 auto;       /* Centraliza o contêiner horizontalmente */
 }
 
@@ -46,7 +50,8 @@ header li a {
 }
 
 .articles article img {
-    height: 180px;
+   /* height: 180px; */
+   width: 100%;
 }
 
 .articles article {
@@ -72,4 +77,41 @@ margin-bottom: 8px;
     color: white;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3 {
+    font-size: 24 px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sport {
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+#sport .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: rgb(241, 241, 179);
+}
+
+#economy .articles article a {
+    background-color: orange;
+    font-weight: bold;
 }
