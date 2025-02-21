@@ -1,6 +1,9 @@
 .botaolimpar {
-    background-color: red;
+    background-color: rgb(83, 2, 2);
+    color:aliceblue;
+    font-weight: bold;
 }
+
 seletor {
     propriedade: valor; 
 }
