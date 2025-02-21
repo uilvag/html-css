@@ -5,14 +5,39 @@
     padding: 0px;
 }
 
+.entrarLogin {
+    background-color: aqua;
+    color:red;
+    margin: 0 5px;
+
+}
+
+body > header {
+    background: orangered;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 header li {
     display: inline;
 }
 
+header li a {
+    color: blue;
+}
+
 .container {
-    width: 50%;           /* Define a largura do contêiner */
+    width: auto;           /* Define a largura do contêiner */
     margin: 0 auto;       /* Centraliza o contêiner horizontalmente */
 }
+
+
 
 .articles {
     display: flex;
@@ -28,3 +53,23 @@ header li {
     width: 30%;
 }
 
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+margin-bottom: 16px;
+}
+
+.articles article h3{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
