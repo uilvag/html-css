@@ -32,7 +32,7 @@ header li {
 }
 
 header li a {
-    color: blue;
+    color: rgb(0, 0, 146);
     text-decoration: none;
 }
 
@@ -113,5 +113,23 @@ section h2 {
 
 #economy .articles article a {
     background-color: orange;
+    font-weight: bold;
+}
+
+#politica {
+    background-color: rgba(59, 59, 59, 0.4);
+}
+
+#politica .articles article a {
+    background-color:rgb(58, 58, 58);
+    font-weight: bold;
+}
+
+#carros {
+    background-color:aquamarine;
+}
+
+#carros .articles article a {
+    background-color: rgb(0, 108, 108);
     font-weight: bold;
 }
